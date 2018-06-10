@@ -51,24 +51,24 @@ df <- data.frame(id = 1:n,
                  sex = sample(c("Male", "Female"), n, replace=T), 
                  class = sample(c(1, 2, 3), n, replace=T))
 print(df)
-#id sex class
-#1  1   Male     2
-#2  2 Female     2
-#3  3 Female     3
-#4  4   Male     1
-#5  5 Female     1
-#6  6 Female     2
-#7  7 Female     3
+# id sex class
+# 1  1   Male     2
+# 2  2 Female     2
+# 3  3 Female     3
+# 4  4   Male     1
+# 5  5 Female     1
+# 6  6 Female     2
+# 7  7 Female     3
 
 # 8. Змінити імена стовпців цього data frame.
 colnames(df)[2] <- "gender"
 colnames(df)[-2] <- c("id_", "class_")
 print(df)
-#id_ gender class_
-#1   1   Male      2
-#2   2 Female      2
-#3   3 Female      3
-#4   4   Male      1
-#5   5 Female      1
-#6   6 Female      2
-#7   7 Female      3
+# id_ gender class_
+# 1   1   Male      2
+# 2   2 Female      2
+# 3   3 Female      3
+# 4   4   Male      1
+# 5   5 Female      1
+# 6   6 Female      2
+# 7   7 Female      3
