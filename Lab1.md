@@ -42,7 +42,7 @@ f1 <- factor(c("adult", "baby", "adult", "child", "adult"), levels = c("baby", "
 # 6. Знайти індекс першого значення NA в векторі 1, 2, 3, 4, NA, 6, 7, NA, 9, NA, 11. 
 x <- c(1, 2, 3, 4, NA, 6, 7, NA, 9, NA, 11)
 print(min(which(is.na(x)))) 
-#Знайти кількість значень NA.
+# Знайти кількість значень NA.
 print(sum(is.na(x)))
 
 # 7. Створити довільний data frame та вивести в консоль.
